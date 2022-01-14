@@ -8,3 +8,5 @@ let yearsOfWork = 3
 const allVariables = () => console.log(`${name} é ${job} em uma ${workspace} á ${yearsOfWork} anos.`)
 
 allVariables()
+
+//adicionando comentário
