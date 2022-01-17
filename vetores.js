@@ -36,5 +36,3 @@ for (let fruta of frutas) {
 }
 
 
-
-
