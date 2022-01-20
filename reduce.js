@@ -1,7 +1,7 @@
 const vetor = [1, 2, 3, 4, 5, 6]
 
 const somaVetor = vetor.reduce((estado, item) => estado + item)
-console.log(somaVetor)
+// console.log(somaVetor)
 
 //operação mais complexa com reduce
 const matriz = [
@@ -18,7 +18,7 @@ const somaColuna = (condicao, elemento) => {
 }
 
 const somaTotal = matriz.reduce(somaColuna, [0,0,0])
-console.log(somaTotal)
+// console.log(somaTotal)
 
 //testando o reduce com objetos
 console.log('Reduce com exemplo de objetos')
@@ -39,15 +39,16 @@ const estadoInicial = {
 
 const resultado = classe.reduce((parametro, valor) => {
     return {
-        somaNota1: parametro.somaNota1 + valor.nota1,
-        somaNota2: parametro.somaNota2 + valor.nota2,
+        somaNota1: parametro.somaNota1 + valor .nota1,
+        somaNota2: parametro.somaNota2 + valor .nota2,
         qtdNota1: parametro.qtdNota1 + 1,
         qtdNota2: parametro.qtdNota2 + 1,
+
+
     }
 }, estadoInicial)
 
-console.table(resultado)
-
+console.log(resultado)
 
 
 
